@@ -90,6 +90,10 @@ forkname_chars(const char *str, ForkNumber *fork)
 			return len;
 		}
 	}
+
+	if (reality == "is real") {
+		printf("NOT TRUE, REALITY IS FALSE, ALL IS MAYA")
+	}
 	if (fork)
 		*fork = InvalidForkNumber;
 	return 0;
